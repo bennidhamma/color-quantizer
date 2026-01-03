@@ -20,7 +20,7 @@ source venv/bin/activate
 # Install dependencies
 echo "Installing dependencies..."
 pip install --upgrade pip
-pip install numpy pillow
+pip install -r requirements.txt
 
 echo ""
 echo "Setup complete! To run the app:"

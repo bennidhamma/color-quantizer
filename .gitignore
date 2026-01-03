@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+out/
+out_*/
+
+# Images (keep scripts, ignore processed outputs)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp

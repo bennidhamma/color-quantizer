@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Color Quantizer
+Comment=Reduce images to limited color palettes
+Exec=/home/ben/workbench/nicky-art/run.sh
+Icon=applications-graphics
+Terminal=false
+Type=Application
+Categories=Graphics;Photography;

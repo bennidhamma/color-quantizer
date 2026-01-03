@@ -8,6 +8,13 @@ cd "$SCRIPT_DIR"
 
 echo "Setting up Color Quantizer..."
 
+# Check for tkinter (system package on Linux)
+if ! python3 -c "import tkinter" 2>/dev/null; then
+    echo "Installing tkinter system packages..."
+    sudo apt-get update
+    sudo apt-get install -y python3-tk python3-pil.imagetk
+fi
+
 # Create virtual environment
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
